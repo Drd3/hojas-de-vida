@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum Vitae of Emanuel Rico — Semi-Senior Frontend Developer. Optimized for digital consultancy role." />
+  <title>Emanuel Rico — Semi-Senior Frontend Developer</title>
+
+  <!--
+    AI PARSING NOTES:
+    - Optimized version for Semi-Senior Frontend Developer role at a digital consultancy.
+    - Target stack: JavaScript, TypeScript, React, Next.js, TanStack Query, Redux, SASS, GraphQL, REST APIs, Git.
+    - Schema.org JSON-LD structured data included.
+    - Dates follow ISO 8601 format inside <time datetime=""> elements.
+  -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emanuel Rico",
+    "jobTitle": "Semi-Senior Frontend Developer",
+    "email": "emanuelricorojas@gmail.com",
+    "telephone": "319 669 6945",
+    "birthDate": "2001-02-15",
+    "sameAs": "https://www.linkedin.com/in/emaricorojas/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Manizales",
+      "addressRegion": "Caldas",
+      "addressCountry": "CO"
+    },
+    "knowsLanguage": [
+      { "@type": "Language", "name": "Spanish", "proficiencyLevel": "Native" },
+      { "@type": "Language", "name": "English",  "proficiencyLevel": "B1" }
+    ],
+    "knowsAbout": [
+      "JavaScript (ES6+)", "TypeScript",
+      "React", "Next.js", "TanStack Query", "Redux Toolkit", "React Context",
+      "SASS/SCSS", "Tailwind CSS", "CSS3", "HTML5", "Responsive Design",
+      "REST APIs", "GraphQL", "Apollo Client",
+      "Git", "GitHub", "Storybook",
+      "Figma", "UI/UX Design", "Framer Motion",
+      "Docker", "Performance Optimization", "Code Review"
+    ],
+    "hasOccupation": [
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Semi-Senior Frontend Developer",
+        "startDate": "2023",
+        "endDate": "2026",
+        "worksFor": { "@type": "Organization", "name": "Junoai.co" },
+        "description": "Developed complex React/Next.js components across multiple products. Led frontend architecture, code reviews, and mentored junior developers."
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Frontend Developer",
+        "startDate": "2022",
+        "endDate": "2023",
+        "worksFor": { "@type": "Organization", "name": "Testiando (Netactica)" },
+        "description": "Built React dashboards with Redux, TanStack Query, and GraphQL. Contributed to code quality and UI/UX improvements."
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Freelance Frontend Developer",
+        "startDate": "2019",
+        "endDate": "2021",
+        "description": "Multiple client projects using React, JavaScript, SASS, and REST APIs."
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 3rem 2.5rem;
+      background: #fafafa;
+      color: #2c2c2c;
+      line-height: 1.65;
+      font-size: 0.95rem;
+    }
+
+    /* ── Header ── */
+    header { margin-bottom: 2.5rem; }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #1a1a1a;
+      margin: 0 0 0.2rem;
+    }
+    header .job-title {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: 0 0 1.25rem;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #999;
+      margin: 2.5rem 0 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    /* ── Sub-project headings ── */
+    h4 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #3a3a3a;
+      margin: 1.25rem 0 0.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    /* ── Body text ── */
+    p { margin: 0.35rem 0 0.6rem; color: #3a3a3a; }
+    ul { padding-left: 1.1rem; margin: 0.3rem 0 0.7rem; }
+    li { margin-bottom: 0.25rem; color: #444; }
+
+    /* ── Contact ── */
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      font-size: 0.85rem;
+      color: #555;
+    }
+    .contact-list a { color: #555; text-decoration: none; border-bottom: 1px solid #ddd; }
+    .contact-list a:hover { color: #222; border-color: #888; }
+
+    /* ── Description ── */
+    header [itemprop="description"] {
+      margin-top: 1.25rem;
+      font-size: 0.92rem;
+      color: #4a4a4a;
+      line-height: 1.75;
+      max-width: 680px;
+    }
+
+    /* ── Tags / Skills ── */
+    .tags { display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0; list-style: none; margin-top: 0.5rem; }
+    .tags li {
+      background: #f2f2f2;
+      color: #4a4a4a;
+      padding: 0.18rem 0.6rem;
+      border-radius: 3px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    .tags li.highlight {
+      background: #e8f0fe;
+      color: #3a5bbf;
+    }
+
+    /* ── Skills section ── */
+    [data-section="skills"] article { margin-bottom: 0.9rem; }
+    [data-section="skills"] h3 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #888;
+      margin: 0 0 0.4rem;
+    }
+
+    /* ── Experience entries ── */
+    .job {
+      margin-bottom: 0;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid #ebebeb;
+    }
+    .job:last-of-type { border-bottom: none; }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.15rem;
+    }
+    .job-company {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0;
+    }
+    .job-company span { font-weight: 400; color: #888; font-size: 0.85rem; }
+    .job-role {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin: 0 0 0.75rem;
+    }
+    .job-body { padding-left: 0; }
+    time { font-size: 0.82rem; color: #aaa; white-space: nowrap; font-weight: 400; }
+
+    /* ── Additional projects ── */
+    [data-section="additional-projects"] .job-header h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #2c2c2c;
+    }
+  </style>
+</head>
+
+<body itemscope itemtype="https://schema.org/Person">
+
+  <!-- ============================================================
+       HEADER
+  ============================================================ -->
+  <header data-section="personal-info" aria-label="Personal Information">
+    <h1 itemprop="name">Emanuel Rico</h1>
+    <p itemprop="jobTitle" class="job-title">Semi-Senior Frontend Developer</p>
+
+    <ul class="contact-list" aria-label="Contact details">
+      <li>
+        <strong>Email:</strong>
+        <a href="mailto:emanuelricorojas@gmail.com" itemprop="email">emanuelricorojas@gmail.com</a>
+      </li>
+      <li>
+        <strong>Phone:</strong>
+        <span itemprop="telephone">319 669 6945</span>
+      </li>
+      <li>
+        <strong>Location:</strong>
+        <span itemprop="addressLocality">Manizales</span>,
+        <span itemprop="addressRegion">Caldas</span>,
+        <span itemprop="addressCountry">Colombia</span>
+      </li>
+      <li>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/emaricorojas/" itemprop="sameAs">linkedin.com/in/emaricorojas</a>
+      </li>
+      <li>
+        <strong>Years of experience:</strong>
+        <span>7</span>
+      </li>
+    </ul>
+
+    <p itemprop="description">
+      I am passionate about building products where good engineering and design go hand in hand.
+      Frontend Developer with over 4 years of experience building scalable web applications using
+      React, Next.js, TypeScript, and their ecosystems. Experienced with Redux and TanStack Query
+      for state and server-state management, SASS for scalable styling, and GraphQL/REST APIs for
+      data consumption. I write clean, maintainable code, actively participate in code reviews, and
+      enjoy helping junior developers grow. My background in UI/UX design lets me bridge the gap
+      between design systems and production-ready interfaces, delivering components that are both
+      performant and visually polished.
+    </p>
+  </header>
+
+  <!-- ============================================================
+       EXPERIENCE
+  ============================================================ -->
+  <section data-section="work-experience" aria-label="Work Experience">
+    <h2>Work Experience</h2>
+
+    <!-- Junoai.co -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Junoai.co">
+      <div class="job-header">
+        <p class="job-company" itemprop="name">Junoai.co <span>— Web3 &amp; AI Product Studio</span></p>
+        <time datetime="2023/2026"><time datetime="2023" itemprop="startDate">2023</time> – <time datetime="2026" itemprop="endDate">2026</time></time>
+      </div>
+      <div class="job-body">
+        <p class="job-role">Semi-Senior Frontend Developer</p>
+        <p>
+          Led frontend development across multiple products at Junoai.co — from DeFi platforms to
+          gaming interfaces and AI automation tools. Responsible for component architecture, performance
+          optimization, code review, and mentoring within the development team.
+        </p>
+
+        <h4>Vankora Finance — DeFi Platform (<a href="https://vankora.finance/">vankora.finance</a>)</h4>
+        <ul>
+          <li>Architected and built reusable React/Next.js component library consumed across the platform, ensuring consistency and scalability.</li>
+          <li>Managed complex UI state using React Context and Redux; handled asynchronous data fetching and caching with TanStack Query.</li>
+          <li>Implemented frontend security practices: CSP, rate limiting, proxy-based protection, and XSS mitigation strategies.</li>
+          <li>Participated in code reviews, defined frontend conventions, and ensured code quality standards across the team.</li>
+          <li>Collaborated on REST API integration and authentication flows managed through Privy and account abstraction architecture.</li>
+        </ul>
+        <ul class="tags" aria-label="Vankora technologies">
+          <li class="highlight">Next.js</li><li class="highlight">TypeScript</li><li class="highlight">React</li>
+          <li class="highlight">TanStack Query</li><li class="highlight">Redux</li>
+          <li>REST APIs</li><li>JWT</li><li>Figma</li>
+        </ul>
+
+        <h4>Ethernal Games — Decentralized Gaming Platform</h4>
+        <ul>
+          <li>Built complex, interactive UI components in React for four distinct blockchain-connected games, each with unique state logic and visual behavior.</li>
+          <li>Consumed GraphQL APIs via Apollo Client and The Graph Protocol for real-time blockchain data rendering.</li>
+          <li>Implemented React Contexts for per-game wallet and state management; optimized rendering performance for real-time game updates.</li>
+          <li>Used Framer Motion for animations, Howler for sound, and Recharts for data visualizations — delivering an immersive user experience.</li>
+          <li>Participated in design reviews and collaborated closely with the design system definition in Figma.</li>
+        </ul>
+        <ul class="tags" aria-label="Ethernal Games technologies">
+          <li class="highlight">Next.js</li><li class="highlight">TypeScript</li><li class="highlight">React</li>
+          <li class="highlight">Apollo/GraphQL</li><li class="highlight">React Context</li>
+          <li>Framer Motion</li><li>Recharts</li><li>Figma</li>
+        </ul>
+
+        <h4>Chainpod — AI Automation Platform</h4>
+        <ul>
+          <li>Developed the frontend using Next.js and React Flow for interactive, node-based workflow interfaces.</li>
+          <li>Collaborated on REST API integration for AI automation features and designed the UI/UX architecture in Figma.</li>
+        </ul>
+        <ul class="tags" aria-label="Chainpod technologies">
+          <li class="highlight">Next.js</li><li class="highlight">React</li><li>React Flow</li><li>REST APIs</li><li>Figma</li>
+        </ul>
+
+        <h4>Sheepnap — Decentralized Lodging Marketplace</h4>
+        <ul>
+          <li>Redesigned and rebuilt the platform interface with Next.js, applying SASS for scalable, modular styling.</li>
+          <li>Designed detailed mockups in Figma: site maps, user flows, and information architecture.</li>
+        </ul>
+        <ul class="tags" aria-label="Sheepnap technologies">
+          <li class="highlight">Next.js</li><li class="highlight">SASS</li><li>Figma</li><li>After Effects</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Testiando -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Testiando">
+      <div class="job-header">
+        <p class="job-company" itemprop="name">Testiando <span>— Netactica</span></p>
+        <time datetime="2022/2023"><time datetime="2022" itemprop="startDate">2022</time> – <time datetime="2023" itemprop="endDate">2023</time></time>
+      </div>
+      <div class="job-body">
+        <p class="job-role">Frontend Developer</p>
+
+        <h4>Netactica Dashboards — Data Monitoring Application</h4>
+        <p>
+          Built a data monitoring application with dynamic charts, dashboards, and informative data
+          tables for the company Netactica.
+        </p>
+        <ul>
+          <li>Developed in JavaScript/React with a component-based architecture using MUI and Tailwind CSS for UI consistency.</li>
+          <li>Managed global application state with Redux Toolkit (JWT authentication, user sessions) and per-component state with React Context.</li>
+          <li>Implemented TanStack Query (React Query) for server-state management, caching, and background data synchronization.</li>
+          <li>Built advanced data tables with AG Grid and interactive data visualizations with AmCharts.</li>
+          <li>Consumed REST APIs for all frontend-backend communication with JWT-secured endpoints.</li>
+          <li>Applied visual design skills to improve dashboard usability: color, contrast, typography hierarchy, and navigation clarity.</li>
+        </ul>
+        <ul class="tags" aria-label="Netactica Dashboards technologies">
+          <li class="highlight">React</li><li class="highlight">JavaScript</li><li class="highlight">TypeScript</li>
+          <li class="highlight">Redux Toolkit</li><li class="highlight">TanStack Query</li>
+          <li class="highlight">REST APIs</li><li>MUI</li><li>Tailwind CSS</li>
+          <li>AG Grid</li><li>AmCharts</li><li>JWT</li>
+        </ul>
+
+        <h4>BitFly — Crypto Flight Reservation Platform</h4>
+        <ul>
+          <li>Designed the complete UI system in Figma: user flows, site maps, and component library definition.</li>
+          <li>Ensured design-to-code consistency and collaborated with developers during implementation reviews.</li>
+        </ul>
+        <ul class="tags" aria-label="BitFly technologies">
+          <li>Figma</li><li>UI/UX Design</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Freelancer -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Freelancer">
+      <div class="job-header">
+        <p class="job-company">Freelancer <span>— Multiple Projects</span></p>
+        <time datetime="2019/2021"><time datetime="2019" itemprop="startDate">2019</time> – <time datetime="2021" itemprop="endDate">2021</time></time>
+      </div>
+      <div class="job-body">
+        <p class="job-role">Frontend Developer &amp; UI Designer</p>
+        <p>
+          Delivered multiple client projects independently, covering frontend development,
+          UI/UX design, and REST API consumption.
+        </p>
+        <ul>
+          <li><strong>Dancero</strong> — Web3 platform connecting dance instructors with students. Built layout and frontend with React and SASS.</li>
+          <li><strong>Linkiiu</strong> — Services marketplace app. Frontend development with Vue.js, Bootstrap, and Node.js.</li>
+          <li><strong>Sheepnap Landing</strong> — Designed landing page and custom illustration set in Figma.</li>
+          <li><strong>Flyencer</strong> — Accommodation booking platform frontend.</li>
+          <li><strong>Netactica</strong> — Freelance C# developer, consuming REST webservices for a hotel reservation purchase flow.</li>
+        </ul>
+        <ul class="tags" aria-label="Technologies used">
+          <li class="highlight">React</li><li class="highlight">JavaScript</li><li class="highlight">SASS</li>
+          <li>Vue.js</li><li>Bootstrap</li><li>REST APIs</li><li>Figma</li>
+        </ul>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ============================================================
+       SKILLS & TECHNOLOGIES
+  ============================================================ -->
+  <section data-section="skills" aria-label="Skills and Technologies">
+    <h2>Skills &amp; Technologies</h2>
+
+    <article aria-label="Core Frontend">
+      <h3>Core Frontend</h3>
+      <ul class="tags">
+        <li class="highlight">JavaScript (ES6+)</li>
+        <li class="highlight">TypeScript</li>
+        <li class="highlight">React</li>
+        <li class="highlight">Next.js</li>
+        <li class="highlight">TanStack Query</li>
+        <li class="highlight">Redux Toolkit</li>
+        <li class="highlight">React Context</li>
+        <li class="highlight">SASS/SCSS</li>
+        <li>Tailwind CSS</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Responsive Design</li>
+      </ul>
+    </article>
+
+    <article aria-label="APIs and Data">
+      <h3>APIs &amp; Data</h3>
+      <ul class="tags">
+        <li class="highlight">REST APIs</li>
+        <li class="highlight">GraphQL</li>
+        <li class="highlight">Apollo Client</li>
+        <li>The Graph Protocol</li>
+      </ul>
+    </article>
+
+    <article aria-label="Tooling and Quality">
+      <h3>Tooling &amp; Quality</h3>
+      <ul class="tags">
+        <li class="highlight">Git</li>
+        <li class="highlight">GitHub</li>
+        <li class="highlight">Code Review</li>
+        <li>Storybook</li>
+        <li>Docker</li>
+        <li>React Flow</li>
+        <li>Framer Motion</li>
+      </ul>
+    </article>
+
+    <article aria-label="Design">
+      <h3>Design</h3>
+      <ul class="tags">
+        <li class="highlight">Figma</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe After Effects</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </article>
+
+    <article aria-label="Additional">
+      <h3>Additional</h3>
+      <ul class="tags">
+        <li>Python</li><li>Go</li><li>Node.js</li><li>PostgreSQL</li>
+        <li>Web3</li><li>Wagmi</li><li>Ethers.js</li>
+        <li>Claude Code (AI-first dev)</li>
+      </ul>
+    </article>
+
+    <article aria-label="Languages">
+      <h3>Languages</h3>
+      <ul class="tags">
+        <li>Spanish — Native</li>
+        <li>English — B1 (improving towards B2)</li>
+      </ul>
+    </article>
+  </section>
+
+</body>
+</html>
