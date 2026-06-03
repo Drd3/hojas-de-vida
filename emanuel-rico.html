@@ -49,7 +49,8 @@
         "@type": "OrganizationRole",
         "roleName": "Full-Stack Developer & UI/UX Designer",
         "startDate": "2026",
-        "worksFor": { "@type": "Organization", "name": "Vankora Finance" }
+        "worksFor": { "@type": "Organization", "name": "Vankora Finance", "url": "https://vankora.finance/" },
+        "description": "AI-first development using Claude Code"
       },
       {
         "@type": "OrganizationRole",
@@ -72,17 +73,11 @@
       },
       {
         "@type": "OrganizationRole",
-        "roleName": "UI/UX Designer & Frontend Developer",
+        "roleName": "Frontend Developer & UI/UX Designer",
         "startDate": "2022",
         "endDate": "2023",
-        "worksFor": { "@type": "Organization", "name": "BitFly (Netcanto)" }
-      },
-      {
-        "@type": "OrganizationRole",
-        "roleName": "Frontend Developer",
-        "startDate": "2022",
-        "endDate": "2023",
-        "worksFor": { "@type": "Organization", "name": "Netactica Dashboards" }
+        "worksFor": { "@type": "Organization", "name": "Testiando (Netactica)" },
+        "description": "Projects: BitFly (crypto flight platform) and Netactica Dashboards (data monitoring)"
       },
       {
         "@type": "OrganizationRole",
@@ -101,6 +96,7 @@
     h1 { font-size: 2rem; margin-bottom: 0.25rem; }
     h2 { font-size: 1.3rem; border-bottom: 2px solid #111; margin-top: 2rem; padding-bottom: 0.25rem; }
     h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
+    h4 { font-size: 1rem; margin-top: 1.25rem; margin-bottom: 0.2rem; }
     ul { padding-left: 1.25rem; }
     .meta { color: #555; font-size: 0.9rem; }
     .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; list-style: none; }
@@ -263,12 +259,16 @@
     <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Vankora Finance">
       <div class="job-header">
         <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
-        <time datetime="2026" itemprop="startDate">2026 — Present</time>
+        <time datetime="2026" itemprop="startDate">2026</time>
       </div>
-      <p class="meta"><strong itemprop="name">Vankora Finance</strong> — DeFi Platform</p>
+      <p class="meta">
+        <strong itemprop="name">Vankora Finance</strong> — DeFi Platform
+        (<a href="https://vankora.finance/" itemprop="url">vankora.finance</a>)
+      </p>
       <p>
         Decentralized finance (DeFi) project focused on providing accessible and secure blockchain-based
         financial services, with emphasis on simplifying the crypto experience for new users.
+        Development approach: <strong>AI-first using Claude Code</strong> for accelerated development workflows.
       </p>
       <ul>
         <li>Collaborated on backend API development using Golang, REST APIs, JWT authentication, database management, and integration of protocol subgraphs.</li>
@@ -353,36 +353,32 @@
       </ul>
     </article>
 
-    <!-- BitFly -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="BitFly">
+    <!-- Testiando -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Testiando">
       <div class="job-header">
-        <h3 itemprop="roleName">UI/UX Designer &amp; Frontend Developer</h3>
+        <h3 itemprop="roleName">Frontend Developer &amp; UI/UX Designer</h3>
         <time datetime="2022" itemprop="startDate">2022</time> –
         <time datetime="2023" itemprop="endDate">2023</time>
       </div>
-      <p class="meta"><strong itemprop="name">BitFly (Netcanto)</strong> — Crypto Flight Reservation Platform</p>
+      <p class="meta"><strong itemprop="name">Testiando</strong> — Netactica</p>
+
+      <h4>BitFly — Crypto Flight Reservation Platform</h4>
       <p>
-        BitFly is a crypto-based flight reservation platform focused on simplifying travel booking through cryptocurrency payments and creating user experiences.
+        BitFly is a crypto-based flight reservation platform focused on simplifying travel booking
+        through cryptocurrency payments and modern user experiences.
       </p>
       <ul>
-        <li>Created interface mockups in Figma, designing over flows and site maps.</li>
+        <li>Created interface mockups in Figma, designing user flows and site maps.</li>
         <li>Designed the complete UI system ensuring consistent design language and intuitive user flows.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
+      <ul class="tags" aria-label="BitFly technologies">
         <li>Figma</li><li>UI/UX Design</li><li>Mockups</li>
       </ul>
-    </article>
 
-    <!-- Netactica Dashboards -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Netactica Dashboards">
-      <div class="job-header">
-        <h3 itemprop="roleName">Frontend Developer</h3>
-        <time datetime="2022" itemprop="startDate">2022</time> –
-        <time datetime="2023" itemprop="endDate">2023</time>
-      </div>
-      <p class="meta"><strong itemprop="name">Netactica Dashboards</strong> — Data Monitoring Application</p>
+      <h4>Netactica Dashboards — Data Monitoring Application</h4>
       <p>
-        An application developed for the company Netactica focused on event monitoring through dynamic charts, dashboards, and informative data tables.
+        Application focused on metrics visualization and monitoring through dynamic charts,
+        dashboards, and informative data tables.
       </p>
       <ul>
         <li>Built in JavaScript using React, MUI combined with Tailwind CSS, and a dashboard template architecture. Used dedicated React Contexts for individual form management, while Redux handled global application states such as JWT-based authentication and user sessions.</li>
@@ -390,7 +386,7 @@
         <li>Contributed to the backend using Python for automation scripts and internal processes, REST APIs for frontend-backend communication, JWT authentication for secure session handling, and PostgreSQL for structured and scalable database management.</li>
         <li>Background in visual design contributed to redesigning several dashboards to improve usability and user experience, applying better color usage, contrast, typography hierarchy, and clearer navigation patterns.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
+      <ul class="tags" aria-label="Netactica Dashboards technologies">
         <li>React</li><li>MUI</li><li>Tailwind CSS</li><li>Redux</li><li>React Context</li>
         <li>React Query</li><li>AG Grid</li><li>AmCharts</li>
         <li>Python</li><li>REST APIs</li><li>JWT</li><li>PostgreSQL</li>
