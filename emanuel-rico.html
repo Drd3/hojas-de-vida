@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Curriculum Vitae of Emanuel Rico — Software Developer and UI/UX Designer" />
+  <title>Emanuel Rico — CV</title>
+
+  <!--
+    AI PARSING NOTES:
+    - This document uses semantic HTML5 elements and Schema.org JSON-LD structured data.
+    - Each section is clearly labeled with aria-label and data-section attributes.
+    - Dates follow ISO 8601 format inside <time datetime=""> elements.
+    - Skills, technologies, and roles use consistent terminology throughout.
+    - JSON-LD block below contains the full machine-readable representation.
+  -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Emanuel Rico",
+    "jobTitle": "Software Developer & UI/UX Designer",
+    "email": "emanuelriconpog@gmail.com",
+    "telephone": "+598 093 1991",
+    "birthDate": "2001-02-13",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Montevideo",
+      "addressCountry": "UY"
+    },
+    "knowsLanguage": [
+      { "@type": "Language", "name": "Spanish", "proficiencyLevel": "Native" },
+      { "@type": "Language", "name": "English",  "proficiencyLevel": "B1" }
+    ],
+    "knowsAbout": [
+      "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS",
+      "Python", "FastAPI", "Go", "Node.js",
+      "Figma", "Adobe Illustrator",
+      "PostgreSQL", "Supabase",
+      "Blockchain", "Web3", "Wagmi", "Ethers.js", "Hardhat",
+      "REST APIs", "GraphQL", "Apollo",
+      "Docker", "Git", "GitHub",
+      "UI/UX Design", "Responsive Design"
+    ],
+    "hasOccupation": [
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Full-Stack Developer & UI/UX Designer",
+        "startDate": "2026",
+        "worksFor": { "@type": "Organization", "name": "Vankora Finance" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Full-Stack Developer & UI/UX Designer",
+        "startDate": "2025",
+        "endDate": "2026",
+        "worksFor": { "@type": "Organization", "name": "Ethernal Games" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Full-Stack Developer",
+        "startDate": "2024",
+        "worksFor": { "@type": "Organization", "name": "Chainpop" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Full-Stack Developer & UI/UX Designer",
+        "startDate": "2024",
+        "worksFor": { "@type": "Organization", "name": "Sheepnap" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "UI/UX Designer & Frontend Developer",
+        "startDate": "2022",
+        "endDate": "2023",
+        "worksFor": { "@type": "Organization", "name": "BitFly (Netcanto)" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Frontend Developer",
+        "startDate": "2022",
+        "endDate": "2023",
+        "worksFor": { "@type": "Organization", "name": "Netactica Dashboards" }
+      },
+      {
+        "@type": "OrganizationRole",
+        "roleName": "Freelance Developer",
+        "startDate": "2020",
+        "endDate": "2021",
+        "worksFor": { "@type": "Organization", "name": "Netactica" }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* Minimal styles — layout only, no decorative CSS that hinders parsing */
+    body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem; color: #111; line-height: 1.6; }
+    h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.3rem; border-bottom: 2px solid #111; margin-top: 2rem; padding-bottom: 0.25rem; }
+    h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
+    ul { padding-left: 1.25rem; }
+    .meta { color: #555; font-size: 0.9rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; list-style: none; }
+    .tags li { background: #f0f0f0; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; }
+    .job { margin-bottom: 1.75rem; }
+    .job-header { display: flex; justify-content: space-between; align-items: baseline; }
+    time { font-size: 0.9rem; color: #555; }
+    .contact-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
+  </style>
+</head>
+
+<body itemscope itemtype="https://schema.org/Person">
+
+  <!-- ============================================================
+       HEADER — Personal information
+  ============================================================ -->
+  <header data-section="personal-info" aria-label="Personal Information">
+    <h1 itemprop="name">Emanuel Rico</h1>
+    <p itemprop="jobTitle" class="meta">Software Developer &amp; UI/UX Designer</p>
+
+    <ul class="contact-list" aria-label="Contact details">
+      <li>
+        <strong>Email:</strong>
+        <a href="mailto:emanuelriconpog@gmail.com" itemprop="email">emanuelriconpog@gmail.com</a>
+      </li>
+      <li>
+        <strong>Phone:</strong>
+        <span itemprop="telephone">+598 093 1991</span>
+      </li>
+      <li>
+        <strong>Location:</strong>
+        <span itemprop="addressLocality">Montevideo</span>,
+        <span itemprop="addressCountry">Uruguay</span>
+      </li>
+      <li>
+        <strong>Date of birth:</strong>
+        <time datetime="2001-02-13" itemprop="birthDate">February 13, 2001</time>
+      </li>
+      <li>
+        <strong>Years of experience:</strong>
+        <span>7</span>
+      </li>
+    </ul>
+
+    <p itemprop="description">
+      I am passionate about the world of design and I am interested in the world of technologies.
+      I like to design looking at all times the functional aspect and the user's perspective.
+      I am a Software Developer with experience building modern web applications and user interfaces.
+      I have professional experience in Python and recently Go. I have contributed to projects in
+      Web3 and Artificial Intelligence. Thanks to my background in visual design and frontend
+      development, I bridge the gap between development and UI/UX to build scalable, high-fidelity
+      products tailored to user needs. Currently enhancing my English communication skills towards
+      a B2 proficiency level.
+    </p>
+  </header>
+
+  <!-- ============================================================
+       SKILLS
+  ============================================================ -->
+  <section data-section="skills" aria-label="Skills and Technologies">
+    <h2>Skills &amp; Technologies</h2>
+
+    <article aria-label="Frontend">
+      <h3>Frontend</h3>
+      <ul class="tags" itemprop="knowsAbout">
+        <li>JavaScript (ES6+)</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Next.js</li>
+        <li>Tailwind CSS</li>
+        <li>SASS/SCSS</li>
+        <li>Bootstrap</li>
+        <li>Responsive Design</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+      </ul>
+    </article>
+
+    <article aria-label="Backend">
+      <h3>Backend</h3>
+      <ul class="tags">
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>Go</li>
+        <li>REST APIs</li>
+        <li>GraphQL</li>
+        <li>Apollo</li>
+        <li>JWT Authentication</li>
+      </ul>
+    </article>
+
+    <article aria-label="Databases">
+      <h3>Databases</h3>
+      <ul class="tags">
+        <li>PostgreSQL</li>
+        <li>Supabase</li>
+        <li>Database Management</li>
+      </ul>
+    </article>
+
+    <article aria-label="Blockchain and Web3">
+      <h3>Blockchain / Web3</h3>
+      <ul class="tags">
+        <li>Wagmi</li>
+        <li>Ethers.js</li>
+        <li>Hardhat</li>
+        <li>Smart Contracts</li>
+        <li>The Graph Protocol</li>
+        <li>DeFi</li>
+        <li>Wallet Integration</li>
+      </ul>
+    </article>
+
+    <article aria-label="Design">
+      <h3>Design</h3>
+      <ul class="tags">
+        <li>Figma</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe After Effects</li>
+        <li>UI/UX Design</li>
+        <li>Framer Motion</li>
+      </ul>
+    </article>
+
+    <article aria-label="Tools and Infrastructure">
+      <h3>Tools &amp; Infrastructure</h3>
+      <ul class="tags">
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Docker</li>
+        <li>Zustand</li>
+        <li>React Toolkit (Redux)</li>
+        <li>AG Grid</li>
+        <li>Ant Design</li>
+      </ul>
+    </article>
+
+    <article aria-label="Languages">
+      <h3>Languages</h3>
+      <ul class="tags">
+        <li>Spanish — Native</li>
+        <li>English — B1 (improving towards B2)</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- ============================================================
+       EXPERIENCE
+  ============================================================ -->
+  <section data-section="work-experience" aria-label="Work Experience">
+    <h2>Work Experience</h2>
+
+    <!-- Vankora Finance -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Vankora Finance">
+      <div class="job-header">
+        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
+        <time datetime="2026" itemprop="startDate">2026 — Present</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Vankora Finance</strong> — DeFi Platform</p>
+      <p>
+        Decentralized finance (DeFi) project focused on providing accessible and secure blockchain-based
+        financial services, with emphasis on simplifying the crypto experience for new users.
+      </p>
+      <ul>
+        <li>Collaborated on backend API development using Galaxy, REST APIs, JWT authentication, database management, and integration of protocol subgraphs.</li>
+        <li>Implemented blockchain UX: smooth navigation, clear user flows, and reducing technical complexity by adapting crypto terminology for Spanish-speaking users.</li>
+        <li>Implemented frontend security and infrastructure practices: CSP, rate limiting, array-based limiting, XSS mitigation strategies.</li>
+        <li>Authentication and transaction flows managed through Proxy and account abstraction architecture; focus on performance and availability for a high-traffic frontend.</li>
+        <li>Backend infrastructure developed in Go with strong focus on microservices and handling the size and logs of each application.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Next.js</li><li>Go</li><li>REST APIs</li><li>JWT</li><li>PostgreSQL</li>
+        <li>Galaxy</li><li>CSP</li><li>Figma</li>
+      </ul>
+    </article>
+
+    <!-- Ethernal Games -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Ethernal Games">
+      <div class="job-header">
+        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
+        <time datetime="2025" itemprop="startDate">2025</time> –
+        <time datetime="2026" itemprop="endDate">2026</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Ethernal Games</strong> — Decentralized Gaming Platform</p>
+      <p>
+        A decentralized betting platform where users play POP tokens as transparent, publicly verifiable prizes.
+        The platform features different blockchain-connected games with a strong focus on immersive and consistent user experiences.
+      </p>
+      <ul>
+        <li>Built in both backend and frontend using Next.js and Wagmi for smart contract interactions.</li>
+        <li>Used Apollo/GraphQL with The Graph Protocol for wallet state management and handling the size and logs of each individual game.</li>
+        <li>Integrated blockchain through Apollo Client and The Graph Protocol for subgraph interactions.</li>
+        <li>Worked with animations middleware, Docker-based environments, and a dedicated blockchain tool chain for development automation.</li>
+        <li>Contributed to the creation of interface prototypes and UI flows in Figma; helped define the visual direction and usability of the platform.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Next.js</li><li>Wagmi</li><li>The Graph Protocol</li><li>Apollo/GraphQL</li>
+        <li>React Context</li><li>Docker</li><li>Figma</li>
+      </ul>
+    </article>
+
+    <!-- Chainpop -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Chainpop">
+      <div class="job-header">
+        <h3 itemprop="roleName">Full-Stack Developer</h3>
+        <time datetime="2024" itemprop="startDate">2024</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Chainpop</strong> — AI Automation Platform</p>
+      <p>
+        A web platform designed to automate simple processes using AI assistants.
+        The project is currently in beta and combines automation tools with simple user interfaces.
+      </p>
+      <ul>
+        <li>2-sided frontend and backend development using Next.js and libraries such as Framer Motion for animations, hover save effects, and Recharts for dynamic data visualizations.</li>
+        <li>Developed the application using Next.js and libraries such as React Flow for interface mockups and interface situations in Figma, helping define the user experience and visual organization of the platform.</li>
+        <li>Implemented payment processing, database management (PostgreSQL), and API integrations.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Next.js</li><li>React Flow</li><li>Framer Motion</li><li>Recharts</li>
+        <li>PostgreSQL</li><li>Figma</li>
+      </ul>
+    </article>
+
+    <!-- Sheepnap Platform -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Sheepnap Platform">
+      <div class="job-header">
+        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
+        <time datetime="2024" itemprop="startDate">2024</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Sheepnap (Platform &amp; Landing)</strong> — Decentralized Lodging Marketplace</p>
+      <p>
+        Returned to Sheepnap to redesign the user experience and continue the platform's development, improving the overall visual identity and modernizing the interface experience.
+      </p>
+      <ul>
+        <li>Developed the platform using Next.js and contributed to blockchain integration using Wagmi, Ethers, and Hardhat for wallet connectivity and smart contract interactions.</li>
+        <li>Designed detailed and interactive mockups in Figma including site maps, user flows, and information architecture to improve platform usability.</li>
+        <li>Enhanced the platform's visual presentation through interface refinements, layout adjustments, and creation of motion graphics and animations using After Effects.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Next.js</li><li>Wagmi</li><li>Ethers.js</li><li>Hardhat</li>
+        <li>Figma</li><li>After Effects</li>
+      </ul>
+    </article>
+
+    <!-- BitFly -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="BitFly">
+      <div class="job-header">
+        <h3 itemprop="roleName">UI/UX Designer &amp; Frontend Developer</h3>
+        <time datetime="2022" itemprop="startDate">2022</time> –
+        <time datetime="2023" itemprop="endDate">2023</time>
+      </div>
+      <p class="meta"><strong itemprop="name">BitFly (Netcanto)</strong> — Crypto Flight Reservation Platform</p>
+      <p>
+        BitFly is a crypto-based flight reservation platform focused on simplifying travel booking through cryptocurrency payments and creating user experiences.
+      </p>
+      <ul>
+        <li>Created interface mockups in Figma, designing over flows and site maps.</li>
+        <li>Designed the complete UI system ensuring consistent design language and intuitive user flows.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Figma</li><li>UI/UX Design</li><li>Mockups</li>
+      </ul>
+    </article>
+
+    <!-- Netactica Dashboards -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Netactica Dashboards">
+      <div class="job-header">
+        <h3 itemprop="roleName">Frontend Developer</h3>
+        <time datetime="2022" itemprop="startDate">2022</time> –
+        <time datetime="2023" itemprop="endDate">2023</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Netactica Dashboards</strong> — Data Monitoring Application</p>
+      <p>
+        An application developed for the company Netactica focused on event monitoring through dynamic charts, dashboards, and informative data tables.
+      </p>
+      <ul>
+        <li>Built in React.js combined with Tailwind CSS and a global application state such as MIT tokens for individual firm management, while Rebeca handled global application states such as MIT tokens for individual firm management.</li>
+        <li>Contributed to the backend using Python with FastAPI for REST API development and handling.</li>
+        <li>My background in visual design also contributed to redesigning several dashboards to improve usability, hierarchy, and cleaner navigation structure for complex data.</li>
+      </ul>
+      <ul class="tags" aria-label="Technologies used">
+        <li>React</li><li>Tailwind CSS</li><li>Supabase</li><li>REST APIs</li>
+        <li>Zustand</li><li>Redux Toolkit</li><li>AG Grid</li><li>Ant Design</li>
+        <li>Python</li><li>FastAPI</li>
+      </ul>
+    </article>
+
+    <!-- Dancero -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Dancero">
+      <div class="job-header">
+        <h3 itemprop="roleName">Frontend Developer</h3>
+        <time datetime="2021" itemprop="startDate">2021</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Dancero</strong> — Dance Instructor-Student Platform (Colombia)</p>
+      <p>
+        Web project that connects dance instructors with students in Colombia.
+        I was in charge of the layout and frontend development.
+      </p>
+      <ul class="tags" aria-label="Technologies used">
+        <li>React</li><li>SASS</li>
+      </ul>
+    </article>
+
+    <!-- Sheepnap Landing -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Sheepnap Landing">
+      <div class="job-header">
+        <h3 itemprop="roleName">UI Designer &amp; Illustrator</h3>
+        <time datetime="2021" itemprop="startDate">2021</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Sheepnap (Landing Page)</strong></p>
+      <p>
+        Designed the landing page and all illustrations included in it.
+      </p>
+      <ul class="tags" aria-label="Technologies used">
+        <li>Figma</li><li>Illustration</li>
+      </ul>
+    </article>
+
+    <!-- Netactica Freelance -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Netactica Freelance">
+      <div class="job-header">
+        <h3 itemprop="roleName">Freelance Developer CX</h3>
+        <time datetime="2020" itemprop="startDate">2020</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Netactica</strong> — Freelance</p>
+      <p>Freelance frontend developer and UX contributor.</p>
+    </article>
+
+    <!-- Linkilu -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Linkilu">
+      <div class="job-header">
+        <h3 itemprop="roleName">Frontend Developer &amp; UI Designer</h3>
+        <time datetime="2019" itemprop="startDate">2019</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Linkilu</strong> — Services Directory App</p>
+      <p>App-order development; a centralized directory of services. The examples shown are the web section.</p>
+      <ul class="tags" aria-label="Technologies used">
+        <li>CSS</li><li>Mockup</li><li>React</li>
+      </ul>
+    </article>
+
+    <!-- Flyencer -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Flyencer">
+      <div class="job-header">
+        <h3 itemprop="roleName">Developer</h3>
+        <time datetime="2019" itemprop="startDate">2019</time>
+      </div>
+      <p class="meta"><strong itemprop="name">Flyencer</strong> — Flight Recommendations (Academic Project)</p>
+      <p>Project in PHP that led to a platform featuring flight recommendations.</p>
+      <ul class="tags" aria-label="Technologies used">
+        <li>PHP</li>
+      </ul>
+    </article>
+
+  </section>
+
+  <!-- ============================================================
+       ADDITIONAL PROJECTS (freelance / short)
+  ============================================================ -->
+  <section data-section="additional-projects" aria-label="Additional Projects">
+    <h2>Additional Projects</h2>
+
+    <article class="job" aria-label="Happy Tours">
+      <div class="job-header">
+        <h3>Happy Tours</h3>
+        <time datetime="2024">In development — 2024</time>
+      </div>
+      <p>Travel app under development.</p>
+      <ul class="tags"><li>SASS</li><li>Bootstrap</li><li>React</li></ul>
+    </article>
+
+    <article class="job" aria-label="Belly Boyz">
+      <div class="job-header">
+        <h3>Belly Boyz — Landing Page</h3>
+      </div>
+      <p>Landing page. Responsible for the layout and first-fold methodology implementation.</p>
+      <ul class="tags"><li>SASS</li></ul>
+    </article>
+
+  </section>
+
+</body>
+</html>
