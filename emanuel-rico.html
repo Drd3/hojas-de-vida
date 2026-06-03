@@ -48,28 +48,10 @@
       {
         "@type": "OrganizationRole",
         "roleName": "Full-Stack Developer & UI/UX Designer",
-        "startDate": "2026",
-        "worksFor": { "@type": "Organization", "name": "Vankora Finance", "url": "https://vankora.finance/" },
-        "description": "AI-first development using Claude Code"
-      },
-      {
-        "@type": "OrganizationRole",
-        "roleName": "Full-Stack Developer & UI/UX Designer",
-        "startDate": "2025",
+        "startDate": "2024",
         "endDate": "2026",
-        "worksFor": { "@type": "Organization", "name": "Ethernal Games" }
-      },
-      {
-        "@type": "OrganizationRole",
-        "roleName": "Full-Stack Developer",
-        "startDate": "2024",
-        "worksFor": { "@type": "Organization", "name": "Chainpod" }
-      },
-      {
-        "@type": "OrganizationRole",
-        "roleName": "Full-Stack Developer & UI/UX Designer",
-        "startDate": "2024",
-        "worksFor": { "@type": "Organization", "name": "Sheepnap" }
+        "worksFor": { "@type": "Organization", "name": "Junoai.co" },
+        "description": "Projects: Vankora Finance (vankora.finance), Ethernal Games, Chainpod, Sheepnap. AI-first development using Claude Code."
       },
       {
         "@type": "OrganizationRole",
@@ -168,101 +150,79 @@
   <section data-section="work-experience" aria-label="Work Experience">
     <h2>Work Experience</h2>
 
-    <!-- Vankora Finance -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Vankora Finance">
+    <!-- Junoai.co -->
+    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Junoai.co">
       <div class="job-header">
         <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
-        <time datetime="2026" itemprop="startDate">2026</time>
+        <time datetime="2024" itemprop="startDate">2024</time> –
+        <time datetime="2026" itemprop="endDate">2026</time>
       </div>
-      <p class="meta">
-        <strong itemprop="name">Vankora Finance</strong> — DeFi Platform
-        (<a href="https://vankora.finance/" itemprop="url">vankora.finance</a>)
-      </p>
+      <p class="meta"><strong itemprop="name">Junoai.co</strong> — Web3 &amp; AI Product Studio</p>
       <p>
-        Decentralized finance (DeFi) project focused on providing accessible and secure blockchain-based
-        financial services, with emphasis on simplifying the crypto experience for new users.
-        Development approach: <strong>AI-first using Claude Code</strong> for accelerated development workflows.
+        Worked across multiple products built within Junoai.co, spanning decentralized finance,
+        blockchain gaming, AI automation, and lodging marketplaces. Development approach:
+        <strong>AI-first using Claude Code</strong> for accelerated development workflows.
+      </p>
+
+      <h4>Vankora Finance — DeFi Platform (<a href="https://vankora.finance/">vankora.finance</a>)</h4>
+      <p>
+        Decentralized finance platform focused on accessible and secure blockchain-based financial
+        services for Spanish-speaking users.
       </p>
       <ul>
         <li>Collaborated on backend API development using Golang, REST APIs, JWT authentication, database management, and integration of protocol subgraphs.</li>
-        <li>Contributed to the creation and design of interfaces in Figma, focusing on simple navigation, clear user flows, and reducing technical complexity by adapting crypto terminology into more accessible language for Spanish-speaking users.</li>
-        <li>Participated in the implementation of frontend security and infrastructure practices: Content Security Policy (CSP), rate limiting, proxy-based protection, and XSS mitigation strategies.</li>
-        <li>Authentication and transaction flows managed through Privy and account abstraction architecture, preventing direct transaction execution from the frontend.</li>
-        <li>Backend infrastructure developed in Go with strong focus on performance and scalability for a large number of concurrent users, using goroutines for concurrency, Go contexts for request lifecycle management, and database version control through migration systems.</li>
+        <li>Contributed to interface design in Figma, focusing on simple navigation and adapting crypto terminology for non-technical users.</li>
+        <li>Implemented frontend security practices: CSP, rate limiting, proxy-based protection, and XSS mitigation.</li>
+        <li>Authentication and transaction flows managed through Privy and account abstraction architecture.</li>
+        <li>Backend developed in Go with goroutines for concurrency, Go contexts for request lifecycle management, and migration-based database version control.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
-        <li>Next.js</li><li>Go</li><li>Golang</li><li>REST APIs</li><li>JWT</li>
-        <li>PostgreSQL</li><li>Privy</li><li>CSP</li><li>Figma</li>
+      <ul class="tags" aria-label="Vankora technologies">
+        <li>Next.js</li><li>Go</li><li>REST APIs</li><li>JWT</li><li>PostgreSQL</li><li>Privy</li><li>CSP</li><li>Figma</li>
       </ul>
-    </article>
 
-    <!-- Ethernal Games -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Ethernal Games">
-      <div class="job-header">
-        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
-        <time datetime="2025" itemprop="startDate">2025</time> –
-        <time datetime="2026" itemprop="endDate">2026</time>
-      </div>
-      <p class="meta"><strong itemprop="name">Ethernal Games</strong> — Decentralized Gaming Platform</p>
+      <h4>Ethernal Games — Decentralized Gaming Platform</h4>
       <p>
-        A decentralized betting platform where users play POP tokens as transparent, publicly verifiable prizes.
-        The platform features different blockchain-connected games with a strong focus on immersive and consistent user experiences.
+        Decentralized betting platform where players wager POP tokens in transparent, publicly
+        verifiable matches across four blockchain-connected games.
       </p>
       <ul>
-        <li>Built with Next.js, using Wagmi for smart contract interactions, RainbowKit for wallet connections, and Ethers v6 for blockchain contract reading and interactions.</li>
-        <li>Implemented React Contexts for wallet state management and handling the state logic of each individual game.</li>
-        <li>Integrated blockchain data through Apollo Client and The Graph Protocol subgraphs.</li>
-        <li>Worked with authentication middleware, robust error handling systems, Docker-based environments, and a dedicated blockchain test chain for development and testing. Also contributed to application configuration and tooling using Python.</li>
-        <li>Contributed to the creation of interface prototypes and UI flows in Figma; helped define the visual direction and usability of the platform.</li>
-        <li>Used Framer Motion for animations, Howler for sound effects, and Recharts for dynamic data visualization, creating a more immersive player experience.</li>
+        <li>Built with Next.js, Wagmi, RainbowKit, and Ethers v6 for smart contract interactions and wallet connectivity.</li>
+        <li>Implemented React Contexts for wallet state and per-game logic; integrated blockchain data via Apollo Client and The Graph Protocol.</li>
+        <li>Worked with Docker-based environments, authentication middleware, and a dedicated blockchain test chain. Contributed to tooling using Python.</li>
+        <li>Designed interface prototypes and UI flows in Figma; used Framer Motion, Howler, and Recharts for immersive in-game experiences.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
+      <ul class="tags" aria-label="Ethernal Games technologies">
         <li>Next.js</li><li>Wagmi</li><li>RainbowKit</li><li>Ethers v6</li>
-        <li>The Graph Protocol</li><li>Apollo/GraphQL</li><li>React Context</li>
-        <li>Docker</li><li>Python</li><li>Framer Motion</li><li>Howler</li><li>Figma</li>
+        <li>Apollo/GraphQL</li><li>The Graph Protocol</li><li>Docker</li><li>Python</li>
+        <li>Framer Motion</li><li>Howler</li><li>Figma</li>
       </ul>
-    </article>
 
-    <!-- Chainpod -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Chainpod">
-      <div class="job-header">
-        <h3 itemprop="roleName">Full-Stack Developer</h3>
-        <time datetime="2024" itemprop="startDate">2024</time>
-      </div>
-      <p class="meta"><strong itemprop="name">Chainpod</strong> — AI Automation Platform</p>
+      <h4>Chainpod — AI Automation Platform</h4>
       <p>
-        A web platform designed to automate simple processes using AI assistants.
-        The project is currently in beta phase and combines automation tools with customizable assistant workflows.
+        Web platform for automating simple processes using AI assistants, currently in beta,
+        combining automation tools with customizable assistant workflows.
       </p>
       <ul>
-        <li>Participated in both backend and frontend development. Contributed to the backend in Python, working on automation scripts, REST APIs, PostgreSQL database management, and concurrency-related processes for handling background tasks and scalable operations.</li>
-        <li>On the frontend, developed the application using Next.js and libraries such as React Flow for interactive workflow interfaces.</li>
-        <li>Also designed mockups and interface structures in Figma, helping define the user experience and visual organization of the platform.</li>
+        <li>Contributed to the backend in Python: automation scripts, REST APIs, PostgreSQL database management, and concurrency handling for background tasks.</li>
+        <li>Developed the frontend using Next.js and React Flow for interactive workflow interfaces.</li>
+        <li>Designed mockups and interface structures in Figma.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
-        <li>Next.js</li><li>React Flow</li><li>Python</li><li>REST APIs</li>
-        <li>PostgreSQL</li><li>Figma</li>
+      <ul class="tags" aria-label="Chainpod technologies">
+        <li>Next.js</li><li>React Flow</li><li>Python</li><li>REST APIs</li><li>PostgreSQL</li><li>Figma</li>
       </ul>
-    </article>
 
-    <!-- Sheepnap Platform -->
-    <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Sheepnap Platform">
-      <div class="job-header">
-        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
-        <time datetime="2024" itemprop="startDate">2024</time>
-      </div>
-      <p class="meta"><strong itemprop="name">Sheepnap (Platform &amp; Landing)</strong> — Decentralized Lodging Marketplace</p>
+      <h4>Sheepnap — Decentralized Lodging Marketplace</h4>
       <p>
-        Returned to Sheepnap to redesign the user experience and continue the platform's development, improving the overall visual identity and modernizing the interface experience.
+        Redesigned the user experience and continued the platform's development, improving
+        the visual identity and modernizing the interface.
       </p>
       <ul>
-        <li>Developed the platform using Next.js and contributed to blockchain integration using Wagmi, Ethers, and RainbowKit for wallet connectivity and smart contract interactions.</li>
-        <li>Designed detailed and interactive mockups in Figma including site maps, user flows, and information architecture to improve platform usability.</li>
-        <li>Enhanced the platform's visual presentation through interface refinements, layout adjustments, and creation of motion graphics and animations using After Effects.</li>
+        <li>Developed with Next.js and integrated blockchain connectivity using Wagmi, Ethers, and RainbowKit for wallet and smart contract interactions.</li>
+        <li>Designed detailed mockups in Figma including site maps, user flows, and information architecture.</li>
+        <li>Created motion graphics and animations using After Effects.</li>
       </ul>
-      <ul class="tags" aria-label="Technologies used">
-        <li>Next.js</li><li>Wagmi</li><li>Ethers.js</li><li>RainbowKit</li>
-        <li>Figma</li><li>After Effects</li>
+      <ul class="tags" aria-label="Sheepnap technologies">
+        <li>Next.js</li><li>Wagmi</li><li>Ethers.js</li><li>RainbowKit</li><li>Figma</li><li>After Effects</li>
       </ul>
     </article>
 
