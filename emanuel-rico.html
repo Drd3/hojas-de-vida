@@ -77,15 +77,20 @@
     body { font-family: system-ui, sans-serif; max-width: 900px; margin: 0 auto; padding: 2rem; color: #111; line-height: 1.6; }
     h1 { font-size: 2rem; margin-bottom: 0.25rem; }
     h2 { font-size: 1.3rem; border-bottom: 2px solid #111; margin-top: 2rem; padding-bottom: 0.25rem; }
-    h3 { font-size: 1.1rem; margin-bottom: 0.25rem; }
+    h3 { font-size: 1.1rem; margin-bottom: 0.1rem; }
     h4 { font-size: 1rem; margin-top: 1.25rem; margin-bottom: 0.2rem; }
     ul { padding-left: 1.25rem; }
     .meta { color: #555; font-size: 0.9rem; }
     .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; list-style: none; }
     .tags li { background: #f0f0f0; padding: 0.2rem 0.6rem; border-radius: 4px; font-size: 0.85rem; }
-    .job { margin-bottom: 1.75rem; }
+
+    /* Experience entries */
+    .job { margin-bottom: 1.25rem; }
     .job-header { display: flex; justify-content: space-between; align-items: baseline; }
-    time { font-size: 0.9rem; color: #555; }
+    .job-company { font-size: 1.15rem; font-weight: 700; color: #111; margin: 0 0 0.1rem; }
+    .job-role { font-size: 0.85rem; color: #555; margin: 0 0 0.5rem; }
+    time { font-size: 0.85rem; color: #777; white-space: nowrap; }
+
     .contact-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 1rem; }
   </style>
 </head>
@@ -153,11 +158,10 @@
     <!-- Junoai.co -->
     <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Junoai.co">
       <div class="job-header">
-        <h3 itemprop="roleName">Full-Stack Developer &amp; UI/UX Designer</h3>
-        <time datetime="2024" itemprop="startDate">2024</time> –
-        <time datetime="2026" itemprop="endDate">2026</time>
+        <p class="job-company" itemprop="name">Junoai.co <span style="font-weight:400;font-size:0.9rem;color:#555;">— Web3 &amp; AI Product Studio</span></p>
+        <time datetime="2024/2026"><time datetime="2024" itemprop="startDate">2024</time> – <time datetime="2026" itemprop="endDate">2026</time></time>
       </div>
-      <p class="meta"><strong itemprop="name">Junoai.co</strong> — Web3 &amp; AI Product Studio</p>
+      <p class="job-role">Full-Stack Developer &amp; UI/UX Designer</p>
       <p>
         Worked across multiple products built within Junoai.co, spanning decentralized finance,
         blockchain gaming, AI automation, and lodging marketplaces. Development approach:
@@ -229,11 +233,10 @@
     <!-- Testiando -->
     <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Testiando">
       <div class="job-header">
-        <h3 itemprop="roleName">Frontend Developer &amp; UI/UX Designer</h3>
-        <time datetime="2022" itemprop="startDate">2022</time> –
-        <time datetime="2023" itemprop="endDate">2023</time>
+        <p class="job-company" itemprop="name">Testiando <span style="font-weight:400;font-size:0.9rem;color:#555;">— Netactica</span></p>
+        <time datetime="2022/2023"><time datetime="2022" itemprop="startDate">2022</time> – <time datetime="2023" itemprop="endDate">2023</time></time>
       </div>
-      <p class="meta"><strong itemprop="name">Testiando</strong> — Netactica</p>
+      <p class="job-role">Frontend Developer &amp; UI/UX Designer</p>
 
       <h4>BitFly — Crypto Flight Reservation Platform</h4>
       <p>
@@ -269,11 +272,10 @@
     <!-- Freelancer 2019-2021 -->
     <article class="job" itemscope itemtype="https://schema.org/OrganizationRole" aria-label="Freelancer 2019-2021">
       <div class="job-header">
-        <h3 itemprop="roleName">Freelance Developer &amp; UI Designer</h3>
-        <time datetime="2019" itemprop="startDate">2019</time> –
-        <time datetime="2021" itemprop="endDate">2021</time>
+        <p class="job-company">Freelancer <span style="font-weight:400;font-size:0.9rem;color:#555;">— Multiple Projects</span></p>
+        <time datetime="2019/2021"><time datetime="2019" itemprop="startDate">2019</time> – <time datetime="2021" itemprop="endDate">2021</time></time>
       </div>
-      <p class="meta"><strong>Freelancer</strong> — Multiple Projects</p>
+      <p class="job-role">Freelance Developer &amp; UI Designer</p>
       <p>
         During this period I worked independently on several projects across frontend development,
         UI/UX design, illustration, and backend integration.
